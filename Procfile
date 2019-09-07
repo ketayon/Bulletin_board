@@ -1,1 +1,1 @@
-web: gunicorn bboard-ketayon.wsgi
+web: gunicorn bboard.wsgi
