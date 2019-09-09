@@ -22,7 +22,7 @@ def get_timestamp_path(instance, filename):
 
 def send_new_comment_notification(comment):
     if ALLOWED_HOSTS:
-        host =  'http://' + ALLOWED_HOSTS[0]
+        host =  'http://' + ALLOWED_HOSTS[3]
     else:
         host = 'http://localhost:8000'
     author = comment.bb.author

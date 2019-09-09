@@ -25,7 +25,7 @@ SECRET_KEY = '4&vo9)9ydvrjc*x0t0zt0p&ube_c%m2l4dmzh&_wn-#tz-g(lj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1', 'smtp.gmail.com']
+ALLOWED_HOSTS = ['bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1', 'smtp.mailgun.org']
 
 
 # Application definition
@@ -158,8 +158,4 @@ db_from_env = dj_database_url.config()
 DATABASES['default'].update(db_from_env)
 
 
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'ketayon@gmail.com'
-EMAIL_HOST_PASSWORD = 'KaRaMbA2709'
+
