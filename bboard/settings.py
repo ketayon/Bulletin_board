@@ -25,20 +25,9 @@ SECRET_KEY = '4&vo9)9ydvrjc*x0t0zt0p&ube_c%m2l4dmzh&_wn-#tz-g(lj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sandbox966cfa34230d44d7b6859bbf5a77af88.mailgun.org', 'bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
 
-import os
 
-try:
-    from secret import MAILGUN_API_KEY, MAILGUN_DOMAIN, MAILGUN_PUBLIC_KEY, MAILGUN_SMTP_LOGIN, MAILGUN_SMTP_PASSWORD, MAILGUN_SMTP_PORT, MAILGUN_SMTP_SERVER
-except:
-    MAILGUN_API_KEY = os.environ.get('MAILGUN_API_KEY')
-    MAILGUN_DOMAIN = os.environ.get('MAILGUN_DOMAIN')
-    MAILGUN_PUBLIC_KEY = os.environ.get('MAILGUN_PUBLIC_KEY')
-    MAILGUN_SMTP_LOGIN = os.environ.get('MAILGUN_SMTP_LOGIN')
-    MAILGUN_SMTP_PASSWORD = os.environ.get('MAILGUN_SMTP_PASSWORD')
-    MAILGUN_SMTP_PORT = os.environ.get('MAILGUN_SMTP_PORT')
-    MAILGUN_SMTP_SERVER = os.environ.get('MAILGUN_SMTP_SERVER')
    
 
 
