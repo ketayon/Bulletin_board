@@ -157,5 +157,9 @@ import dj_database_url
 db_from_env = dj_database_url.config()
 DATABASES['default'].update(db_from_env)
 
-
+import os
+EMAIL_HOST = os.environ.get('MAILGUN_SMTP_SERVER', 'smtp.mailgun.org')
+EMAIL_PORT = os.environ.get('MAILGUN_SMTP_PORT', '587')
+EMAIL_HOST_USER = os.environ.get('MAILGUN_SMTP_LOGIN', 'brad@sandbox36621917cf0c4184809368d4a9a15335.mailgun.org')
+EMAIL_HOST_PASSWORD = os.environ.get('MAILGUN_SMTP_PASSWORD', 'KaRaMbA2709')
 
