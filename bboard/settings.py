@@ -29,8 +29,8 @@ ALLOWED_HOSTS = ['smtp.mailgun.org', 'bboard-ketayon.herokuapp.com', 'localhost'
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.mailgun.org'
-EMAIL_HOST_USER = 'brad@sandbox36621917cf0c4184809368d4a9a15335.mailgun.org'
-EMAIL_HOST_PASSWORD = 'KaRaMbA2709'
+EMAIL_HOST_USER = 'postmaster@sandbox36621917cf0c4184809368d4a9a15335.mailgun.org'
+EMAIL_HOST_PASSWORD = '832b94838042f40f3ffdb20e5d4a015a-3939b93a-e3994144'
 EMAIL_PORT = 587
 
 
