@@ -28,6 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['app145517370@heroku.com', 'bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
 
 
+
+
 # Application definition
 
 INSTALLED_APPS = [
