@@ -25,13 +25,9 @@ SECRET_KEY = '4&vo9)9ydvrjc*x0t0zt0p&ube_c%m2l4dmzh&_wn-#tz-g(lj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['sandbox36621917cf0c4184809368d4a9a15335.mailgun.org', 'bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['sandbox966cfa34230d44d7b6859bbf5a77af88.mailgun.org', 'bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
 
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.mailgun.org'
-EMAIL_HOST_USER = 'postmaster@sandbox36621917cf0c4184809368d4a9a15335.mailgun.org'
-EMAIL_HOST_PASSWORD = '832b94838042f40f3ffdb20e5d4a015a-3939b93a-e3994144'
-EMAIL_PORT = 587
+
 
 
 # Application definition
