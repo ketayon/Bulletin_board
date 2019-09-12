@@ -25,7 +25,7 @@ SECRET_KEY = '4&vo9)9ydvrjc*x0t0zt0p&ube_c%m2l4dmzh&_wn-#tz-g(lj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['smtp.sendgrid.net', 'bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['herokuapp.com', 'bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
 
 
    
@@ -115,11 +115,10 @@ AUTH_PASSWORD_VALIDATORS = [
 
 AUTH_USER_MODEL = 'main.AdvUser'
 
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_PORT = 587
-EMAIL_USE_SSL = True
-EMAIL_HOST_USER = 'app145517370@heroku.com'
-EMAIL_HOST_PASSWORD = '294qocid4692'
+SENDGRID_USERNAME = 'app145517370@heroku.com'
+SENDGRID_PASSWORD = '294qocid4692'
+SENDGRID_API_KEY = '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'
+
 
 
 AUTHENTICATION_BACKENDS = (
