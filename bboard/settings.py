@@ -115,6 +115,17 @@ AUTH_PASSWORD_VALIDATORS = [
 
 AUTH_USER_MODEL = 'main.AdvUser'
 
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_PORT = 587
+EMAIL_USE_SSL = True
+EMAIL_HOST_USER = 'app145517370@heroku.com'
+EMAIL_HOST_PASSWORD = '294qocid4692'
+
+
+AUTHENTICATION_BACKENDS = (
+    'django.contrib.auth.backends.ModelBackend',
+)
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
