@@ -25,13 +25,9 @@ SECRET_KEY = '4&vo9)9ydvrjc*x0t0zt0p&ube_c%m2l4dmzh&_wn-#tz-g(lj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['smtp.sendgrid.net', 'bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['https://bboard-ketayon.herokuapp.com/', 'localhost', '127.0.0.1']
 
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+
 
    
 
