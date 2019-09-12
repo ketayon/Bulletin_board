@@ -27,16 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['smtp.sendgrid.net', 'bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
 
-EMAIL_BACKEND = "sendgrid_backend.SendgridBackend"
-
-import os
-SENDGRID_API_KEY = os.environ["SENDGRID_API_KEY"]
-
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = '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'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
 
    
 
