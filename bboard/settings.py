@@ -122,7 +122,7 @@ EMAIL_HOST_USER = 'app145517370@heroku.com'
 EMAIL_HOST_PASSWORD = '294qocid4692' # this is your API key
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = "sgbackend.SendGridBackend"
 DEFAULT_FROM_EMAIL = 'ketayon@gmail.com'
 
 
