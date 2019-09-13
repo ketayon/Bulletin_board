@@ -115,6 +115,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 AUTH_USER_MODEL = 'main.AdvUser'
 
+import sendgrid
 SENDGRID_API_KEY = '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'
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = 'app145517370@heroku.com'
