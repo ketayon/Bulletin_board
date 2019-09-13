@@ -25,7 +25,7 @@ SECRET_KEY = '4&vo9)9ydvrjc*x0t0zt0p&ube_c%m2l4dmzh&_wn-#tz-g(lj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['smtp.sendgrid.net', 'bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
 
 
    
@@ -121,7 +121,7 @@ EMAIL_HOST_USER = 'app145517370@heroku.com'
 EMAIL_HOST_PASSWORD = '294qocid4692' # this is your API key
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_BACKEND = "sgbackend.SendGridBackend"
+
 
 
 
