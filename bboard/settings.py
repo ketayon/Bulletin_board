@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '4&vo9)9ydvrjc*x0t0zt0p&ube_c%m2l4dmzh&_wn-#tz-g(lj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['bboard-ketayon.herokuapp.com', 'localhost', '127.0.0.1']
 
