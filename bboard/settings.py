@@ -116,8 +116,8 @@ AUTH_PASSWORD_VALIDATORS = [
 AUTH_USER_MODEL = 'main.AdvUser'
 
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey' # this is exactly the value 'apikey'
-EMAIL_HOST_PASSWORD = 'sendgrid-api-key' # this is your API key
+EMAIL_HOST_USER = 'app145517370@heroku.com'
+EMAIL_HOST_PASSWORD = 'SG.Um5UwbjJSvKJSfLYPo1h3Q.SwflK7jfFspSIkG--woG_hmLIZlywAUWljWaKu3RP3gy' # this is your API key
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
