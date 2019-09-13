@@ -48,7 +48,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'api.apps.ApiConfig',
-    'django-sendgrid',
 ]
 
 MIDDLEWARE = [
@@ -116,16 +115,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 AUTH_USER_MODEL = 'main.AdvUser'
 
-import sendgrid
+EMAIL_BACKEND = 'sgbackend.SendGridBackend'
 SENDGRID_API_KEY = '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'
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'app145517370@heroku.com'
-EMAIL_HOST_PASSWORD = '294qocid4692' # this is your API key
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_BACKEND = "sgbackend.SendGridBackend"
-DEFAULT_FROM_EMAIL = 'ketayon@gmail.com'
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
