@@ -6,54 +6,55 @@ html {
 }
 
 @media screen and (max-width : 1024px) {
-    .row {
-        padding: 10px;
-        margin-left: 5px;
+    header h1 {
+		background: url("bg.jpg") left / auto 100% no-repeat, url("bg.jpg") right / auto 100% no-repeat;
 	}
-
-	header h1 {
-		background: url("bg.jpg") left/auto 100% no-repeat, 
-		url("bg.jpg") right/auto 100% no-repeat;
-	}
+	
 	.root {
 		font-size: larger;
 	}
+	
 	img.main-image {
-		width: 300рх;
+		width: 300px;
 	}
+	
 	img.additional-image {
-		width: 180рх;
+		width: 180px;
 	}
 }
 
 @media screen and (max-width : 800px) {
 	header h1 {
-		background: url("bg.jpg") left/auto 100% no-repeat, 
-		url("bg.jpg") right/auto 100% no-repeat;
+		background: url("bg.jpg") left / auto 100% no-repeat, url("bg.jpg") right / auto 100% no-repeat;
 	}
+	
 	.root {
 		font-size: larger;
 	}
+	
 	img.main-image {
-		width: 300рх;
+		width: 300px;
 	}
+	
 	img.additional-image {
-		width: 180рх;
+		width: 180px;
 	}
 }
 
 @media screen and (max-width : 360px) {
 	header h1 {
-		background: url("bg.jpg") left/auto 100% no-repeat, 
-		url("bg.jpg") right/auto 100% no-repeat;
+		background: url("bg.jpg") left / auto 100% no-repeat, url("bg.jpg") right / auto 100% no-repeat;
 	}
+	
 	.root {
 		font-size: larger;
 	}
+	
 	img.main-image {
-		width: 300рх;
+		width: 300px;
 	}
+	
 	img.additional-image {
-		width: 180рх;
+		width: 180px;
 	}
 }
